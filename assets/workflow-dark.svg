@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="270" viewBox="0 0 880 270" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" role="img" aria-labelledby="wf-dark-title wf-dark-desc">
+  <title id="wf-dark-title">How Tensorus Works — Safe AI Agent &amp; SDK Workflow</title>
+  <desc id="wf-dark-desc">Humans, Python SDKs, and external MCP AI agents connect to governed multidimensional tensors through a three-step workflow: Inspect, Propose, and Approve &amp; Run.</desc>
+  <defs>
+    <linearGradient id="bg-d" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071411"/>
+      <stop offset="100%" stop-color="#0d241e"/>
+    </linearGradient>
+    <pattern id="grid-d" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#13332a" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="270" rx="16" fill="url(#bg-d)"/>
+  <rect width="880" height="270" rx="16" fill="url(#grid-d)" opacity="0.65"/>
+  <rect x="1" y="1" width="878" height="268" rx="15" fill="none" stroke="#235346" stroke-width="1.5"/>
+
+  <text x="34" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.6" fill="#5eead4">HOW TENSORUS WORKS</text>
+  <text x="34" y="64" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#f0fdf4">Governed Multidimensional Data for Humans, Apps &amp; AI Agents</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(32, 88)">
+    <rect width="252" height="148" rx="12" fill="#0d2922" stroke="#2b6453" stroke-width="1.4"/>
+    <rect x="18" y="18" width="66" height="24" rx="6" fill="#133e33"/>
+    <text x="51" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700" fill="#86efac">STEP 1</text>
+    <text x="18" y="66" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#f0fdf4">Store &amp; Version</text>
+    <text x="18" y="91" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#a7c4b8">Save N-D NumPy &amp; Xarray</text>
+    <text x="18" y="110" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#a7c4b8">tensors with units, masks,</text>
+    <text x="18" y="129" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#a7c4b8">and pinned snapshots.</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M 292 162 L 306 162" stroke="#5eead4" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="305,157 313,162 305,167" fill="#5eead4"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(314, 88)">
+    <rect width="252" height="148" rx="12" fill="#0d2922" stroke="#2b6453" stroke-width="1.4"/>
+    <rect x="18" y="18" width="66" height="24" rx="6" fill="#123842"/>
+    <text x="51" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700" fill="#67e8f9">STEP 2</text>
+    <text x="18" y="66" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#f0fdf4">Inspect &amp; Propose</text>
+    <text x="18" y="91" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#a7c4b8">Claude, Cursor, or SDK apps</text>
+    <text x="18" y="110" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#a7c4b8">explore data via MCP and</text>
+    <text x="18" y="129" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#a7c4b8">draft safe operation plans.</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M 574 162 L 588 162" stroke="#5eead4" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="587,157 595,162 587,167" fill="#5eead4"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(596, 88)">
+    <rect width="252" height="148" rx="12" fill="#103329" stroke="#34d399" stroke-width="1.6"/>
+    <rect x="18" y="18" width="66" height="24" rx="6" fill="#164e3e"/>
+    <text x="51" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700" fill="#6ee7b7">STEP 3</text>
+    <text x="18" y="66" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#f0fdf4">Approve &amp; Reproduce</text>
+    <text x="18" y="91" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#cce7dc">Approve the exact plan;</text>
+    <text x="18" y="110" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#cce7dc">Tensorus runs it, tracks</text>
+    <text x="18" y="129" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#cce7dc">lineage, and syncs MLflow.</text>
+  </g>
+</svg>
