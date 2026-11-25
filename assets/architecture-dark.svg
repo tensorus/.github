@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="456" viewBox="0 0 880 456" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" role="img" aria-labelledby="arch-title arch-desc">
   <title id="arch-title">Tensorus Platform Architecture</title>
-  <desc id="arch-desc">Three-tier architecture from developer and AI agent interfaces through the governed Tensorus control plane to the PostgreSQL catalog, S3 Zarr v3 tensor store, and fenced workers.</desc>
+  <desc id="arch-desc">Three-tier architecture connecting AI agents, Python SDKs, and teams to governed multidimensional tensor storage and verified compute.</desc>
   <defs>
     <marker id="down" markerWidth="10" markerHeight="10" refX="5" refY="7" orient="auto" markerUnits="userSpaceOnUse">
       <path d="M1 1 L5 8 L9 1 Z" fill="#4b917d"/>
@@ -31,7 +31,7 @@
     <text x="20" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#22d3ee">Read/Explain · Scoped Propose</text>
 
     <rect x="280" y="0" width="256" height="82" rx="12" fill="#0d241e" stroke="#22d3ee" stroke-width="1.8"/>
-    <text x="300" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#f0fdf4">Python SDK &amp; Xarray</text>
+    <text x="300" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#f0fdf4">Python, Xarray &amp; MLflow</text>
     <text x="300" y="53" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a7c4b8">Lossless binary NPY streaming</text>
     <text x="300" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#22d3ee">Typed axes · Validity masks</text>
 
@@ -45,10 +45,10 @@
   <g transform="translate(32, 200)">
     <rect x="0" y="0" width="816" height="116" rx="14" fill="#0d241e" stroke="#34d399" stroke-width="2"/>
     <rect x="18" y="16" width="780" height="36" rx="8" fill="#123129" stroke="#fb7185" stroke-width="1.4" stroke-dasharray="5 3"/>
-    <text x="408" y="39" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#f0fdf4">OIDC / Scoped Grants  ·  Transitive Lineage ACLs  ·  Hash-Bound Plan Approval  ·  Egress Allowlist</text>
+    <text x="408" y="39" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#f0fdf4">SSO &amp; Scoped Agent Grants  ·  Lineage Access Control  ·  Reviewed Plan Approval  ·  Egress Control</text>
 
     <text x="148" y="76" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f0fdf4">Semantic Contracts</text>
-    <text x="148" y="97" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#a7c4b8">v1/v2 units &amp; Data Products</text>
+    <text x="148" y="97" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#a7c4b8">Units, masks &amp; Data Products</text>
 
     <line x1="280" y1="62" x2="280" y2="104" stroke="#245749" stroke-width="1.2"/>
 
@@ -57,25 +57,25 @@
 
     <line x1="552" y1="62" x2="552" y2="104" stroke="#245749" stroke-width="1.2"/>
 
-    <text x="684" y="76" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f0fdf4">Cell Durability &amp; GC</text>
-    <text x="684" y="97" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#a7c4b8">Writer fences &amp; paired recovery</text>
+    <text x="684" y="76" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f0fdf4">Audit &amp; Lifecycle</text>
+    <text x="684" y="97" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#a7c4b8">Snapshots, releases &amp; safe GC</text>
   </g>
 
   <!-- TIER 3: STORAGE & SUPERVISED COMPUTE -->
   <g transform="translate(32, 348)">
     <rect x="0" y="0" width="256" height="82" rx="12" fill="#0d241e" stroke="#a78bfa" stroke-width="1.8"/>
     <text x="20" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#f0fdf4">Transactional Catalog</text>
-    <text x="20" y="53" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a7c4b8">PostgreSQL / SQLite WAL</text>
-    <text x="20" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#a78bfa">110 relational tables</text>
+    <text x="20" y="53" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a7c4b8">Versions, snapshots &amp; lineage</text>
+    <text x="20" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#a78bfa">ACID metadata &amp; contracts</text>
 
     <rect x="280" y="0" width="256" height="82" rx="12" fill="#0d241e" stroke="#a78bfa" stroke-width="1.8"/>
     <text x="300" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#f0fdf4">Immutable Tensor Store</text>
-    <text x="300" y="53" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a7c4b8">Amazon S3 / R2 / POSIX</text>
-    <text x="300" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#a78bfa">Content-addressed Zarr v3</text>
+    <text x="300" y="53" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a7c4b8">Lossless N-D array chunks</text>
+    <text x="300" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#a78bfa">SHA-256 verified storage</text>
 
     <rect x="560" y="0" width="256" height="82" rx="12" fill="#0d241e" stroke="#34d399" stroke-width="1.8"/>
-    <text x="580" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#f0fdf4">Supervised Workers</text>
+    <text x="580" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#f0fdf4">Verified Compute</text>
     <text x="580" y="53" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a7c4b8">65 bounded numerical kernels</text>
-    <text x="580" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#34d399">Memory caps · Checkpoints</text>
+    <text x="580" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" fill="#34d399">Reproducible step receipts</text>
   </g>
 </svg>
