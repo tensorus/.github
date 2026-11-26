@@ -10,12 +10,13 @@
 
 <p>
   <a href="https://tensorus.com"><img src="https://img.shields.io/badge/Platform-tensorus.com-173c2c?style=flat-square" alt="Tensorus Platform"></a>
+  <a href="https://tensorus.com/academy"><img src="https://img.shields.io/badge/Learn-Tensorus_Academy-1d4ed8?style=flat-square" alt="Tensorus Academy"></a>
   <a href="https://tensorus.com/handbook"><img src="https://img.shields.io/badge/Docs-Developer_Handbook-245c44?style=flat-square" alt="Developer Handbook"></a>
   <a href="https://github.com/tensorus/tensorus"><img src="https://img.shields.io/badge/Python_SDK-tensorus_0.2.0-0f766e?style=flat-square" alt="Python SDK"></a>
   <a href="mailto:ai@tensorus.com"><img src="https://img.shields.io/badge/Contact-ai%40tensorus.com-475569?style=flat-square" alt="Contact"></a>
 </p>
 
-**[Website](https://tensorus.com)** · **[Developer Handbook](https://tensorus.com/handbook)** · **[Python SDK & MCP (`tensorus`)](https://github.com/tensorus/tensorus)** · **[Request Early Access](https://tensorus.com/#connect)**
+**[Website](https://tensorus.com)** · **[Tensorus Academy](https://tensorus.com/academy)** · **[Developer Handbook](https://tensorus.com/handbook)** · **[Python SDK & MCP (`tensorus`)](https://github.com/tensorus/tensorus)** · **[Request Early Access](https://tensorus.com/#connect)**
 
 </div>
 
@@ -95,9 +96,19 @@ with Client("https://api.tensorus.com", api_key="tns_...") as client:
 
 ---
 
+## Learn Step by Step: Tensorus Academy (`Levels 100–500`)
+
+Build from first multidimensional arrays to principal lakehouse governance in **[Tensorus Academy (`tensorus.com/academy`)](https://tensorus.com/academy)**—24 hands-on modules pairing concrete production failure modes, vector architecture diagrams, runnable Python SDK labs, and verified runtime receipts:
+
+- **Level 100 · Foundations *(Open Access — no sign-in required)*:** Multi-axis array topology, memory strides, `.npy` framing, `put`/`get` idempotency, zero-download slices, and snapshots.
+- **Level 200 · Scientific & ML Practitioner *(Free Starter Account)*:** Dimensional Semantics `v2`, `tensorus[xarray]`, explicit boolean `ValidityBinding` masks, `WriteContracts`, and leak-free preprocessing.
+- **Levels 300–500 · Production MLOps, Agentic MCP & Principal Governance *(Pro, Scale & Enterprise)*:** Zero-TOCTOU execution cycles, `tensorus[mlflow]` drift gates, resumable tile streaming, `104`-tool `tensorus-mcp` boundaries, Managed AI budgets, two-person `DataProduct` releases, portable bundles, transitive lineage ACLs, two-phase physical GC, and emergency lockdowns.
+
+---
+
 <div align="center">
 
 **Built for multimodal AI, scientific computing, and agentic data engineering teams.**  
-[tensorus.com](https://tensorus.com) · [tensorus.com/handbook](https://tensorus.com/handbook) · `ai@tensorus.com`
+[tensorus.com](https://tensorus.com) · [tensorus.com/academy](https://tensorus.com/academy) · [tensorus.com/handbook](https://tensorus.com/handbook) · `ai@tensorus.com`
 
 </div>
